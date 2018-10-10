@@ -1,6 +1,6 @@
 {
   "name": "@daniel-hallgren-cdab/devops-semver-build-number",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "main": "./lib/greet.js",
   "bin": {
