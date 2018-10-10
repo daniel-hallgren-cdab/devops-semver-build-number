@@ -12,12 +12,13 @@ if (args.pwd == null) {
 
 const version = require(args.pwd + '/package.json').version
 
-const project = process.env.DEVOPS_PROJECT
-const orgUrl = process.env.DEVOPS_ORG_URL
-const token = process.env.DEVOPS_TOKEN
+const projectName = process.env.DEVOPS_PROJECT_NAME
+const organisationName = process.env.DEVOPS_ORG_NAME
+const patToken = process.env.DEVOPS_PAT_TOKEN
+const accessToken = process.env.DEVOPS_ACCESS_TOKEN
 
 const definitionId = args['definition-id']
 
 const run = require('../lib/devops-semver-build-number')
 
-run(project, orgUrl, token, definitionId, version)
+run(projectName, organisationName, patToken, accessToken, definitionId, version)
