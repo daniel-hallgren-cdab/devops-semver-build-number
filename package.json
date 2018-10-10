@@ -1,8 +1,7 @@
 {
   "name": "@daniel-hallgren-cdab/devops-semver-build-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "private": true,
   "bin": {
     "devops-semver-build-number": "bin/devops-semver-build-number.js"
   },
