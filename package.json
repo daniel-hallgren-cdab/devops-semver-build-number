@@ -1,11 +1,11 @@
 {
   "name": "@daniel-hallgren-cdab/devops-semver-build-number",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "bin": {
     "devops-semver-build-number": "bin/devops-semver-build-number.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "azure-devops-node-api": "^6.6.0",
     "dotenv": "^6.1.0",
     "yargs": "^12.0.2"
