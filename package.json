@@ -1,7 +1,9 @@
 {
   "name": "@daniel-hallgren-cdab/devops-semver-build-number",
-  "version": "2.0.1",
+  "version": "2.0.2",
+  "description": "Updates the build number in an Azure DevOps build in runtime to correspond to the package version",
   "license": "MIT",
+  "repository": "daniel-hallgren-cdab/devops-semver-build-number",
   "main": "./lib/greet.js",
   "bin": {
     "devops-semver-build-number": "./bin/index.js"
@@ -10,5 +12,11 @@
     "azure-devops-node-api": "^6.6.0",
     "dotenv": "^6.1.0",
     "yargs": "^12.0.2"
-  }
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "semver",
+    "version"
+  ]
 }
