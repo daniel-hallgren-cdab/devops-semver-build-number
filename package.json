@@ -1,6 +1,6 @@
 {
   "name": "@daniel-hallgren-cdab/devops-semver-build-number",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Updates the build number in an Azure DevOps build in runtime to correspond to the package version",
   "license": "MIT",
   "repository": "daniel-hallgren-cdab/devops-semver-build-number",

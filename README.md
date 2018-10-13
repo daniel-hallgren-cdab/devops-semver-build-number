@@ -38,13 +38,9 @@ To use `devops-semver-build-number` there are a few steps you need to take:
 ### 1. Add build script to `package.json`
 ```json
 {
-  ...
   "scripts": {
-    ...
     "devops-semver": "devops-semver-build-number --pwd $(pwd)",
-    ...
   }
-  ...
 }
 ```
 
@@ -58,8 +54,8 @@ To use `devops-semver-build-number` there are a few steps you need to take:
 
 These steps are optional, but are required if you want to add build metadata in SemVer formatting to your build number
 
-4. Add a variable called `DOT`, with the value "`.`" (a single dot)
-0. Add a variable called `PLUS`, with the value "`+`" (a single plus sign)
+4. Add a variable called `DOT`, with the value `.` (a single dot)
+0. Add a variable called `PLUS`, with the value `+` (a single plus sign)
 
 
 
@@ -78,7 +74,7 @@ If you're wondering where `$(VERSION)` comes from, that's a pipeline variable ad
 
 In your DevOps Build Pipeline, add a Command Line task to your Agent job. If you already create an `.env`-file during your build, then you could probably fuse these. Give the Command Line task the following script:
 
-```console
+```bash
 rm .env   # Removes previous .env-file, if cached with old data, as we rewrite it
 
 # Variables to be used by devops-semver-build-number
@@ -113,7 +109,7 @@ A thing to note is to put this task *after* the installation of Node, Yarn (or n
 
 This indicates where to run the Yarn (or npm) task, so this is your sources directory.
 
-```console
+```
 $(Build.SourcesDirectory)/
 ```
 
