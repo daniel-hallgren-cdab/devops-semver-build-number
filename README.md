@@ -3,6 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@daniel-hallgren-cdab/devops-semver-build-number.svg)](https://github.com/daniel-hallgren-cdab/devops-semver-build-number)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@daniel-hallgren-cdab/devops-semver-build-number.svg)](https://github.com/daniel-hallgren-cdab/devops-semver-build-number)
 
+# [WIP] This documentation is not yet stable. The package works, but the process defined below is not yet fully optimal/functional.
 
 This package makes sure your build numbers in Azure DevOps correspond to your project's version number, as well as adding build metadata in accordance with SemVer formatting.
 
